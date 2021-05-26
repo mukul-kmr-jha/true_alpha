@@ -95,7 +95,7 @@ const upVotePost = (req, res, next) => {
         .then(result => {
             Post.findOneAndUpdate(
                 { _id : req.body.postId },
-                { $set : { up_vote_count: result?.up_vote_count + 1 } },
+                { $set : { up_vote_count: result.up_vote_count + 1 } },
                 { new : true}
             ).exec()
                 .then(result => {

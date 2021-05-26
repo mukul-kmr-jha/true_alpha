@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const checkAuth = require('../api//checkAuth')
+// const checkAuth = require('../api/CheckAuth')
 
 const signup = require('../controllers/users').signup
 const login = require('../controllers/users').login

@@ -58,7 +58,7 @@ export default function Allforum({forums}) {
                         </div>
                         <div className={style.topics}> Topic </div>
                         <div className={style.posts}> Posts</div>
-                        <div className={style.fresshness}> Fresshness </div>
+                        <div className={style.fresshness}> Freshness </div>
                     </div>
 
                 <div className={style.underlinetwo}></div>

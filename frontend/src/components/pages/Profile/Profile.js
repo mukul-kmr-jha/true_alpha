@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import style from './Profile.module.css'
 import {connect} from "react-redux";
 import { Link } from 'react-router-dom';
